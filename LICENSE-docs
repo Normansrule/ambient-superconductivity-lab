@@ -1,0 +1,24 @@
+Documentation license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Aleksander Norman
+
+Unless a file states otherwise, everything under docs/ (including theory notes,
+stage proofs written in Markdown, session logs, and papers), all README and
+PROOF.md files, the site's written content, and rendered animations are
+licensed under CC BY 4.0. Source code is licensed separately under the MIT
+License (see LICENSE).
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, provide a link to the
+license, and indicate if changes were made.
+
+Suggested attribution:
+  Norman, A. (2026). Ambient Superconductivity Lab [Documentation].
+  https://github.com/Normansrule/ambient-superconductivity-lab. CC BY 4.0.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:         https://creativecommons.org/licenses/by/4.0/
+
+Third-party material (figures, data, and quotations from cited works) remains
+under its original license; each dataset's terms are recorded on its
+provenance card in data/.

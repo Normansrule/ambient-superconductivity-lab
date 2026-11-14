@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+# Proof outputs (published by CI, not committed)
+proofs/stage*/result.json
+# Builds
+build/
+media/
+site/node_modules/
+site/dist/
+site/public/status/
+site/test-results/
+site/playwright-report/
+site/*.tsbuildinfo
+# Secrets
+.env
+*.key

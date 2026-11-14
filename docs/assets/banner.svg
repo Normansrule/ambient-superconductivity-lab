@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">Ambient Superconductivity Lab</title>
+  <desc id="d">Magnetic field lines bending around a superconducting lattice, illustrating the Meissner effect.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05121f"/>
+      <stop offset="1" stop-color="#0b2a3f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7fe7ff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#7fe7ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <!-- field lines expelled from the sample -->
+  <g fill="none" stroke="#3fb6ff" stroke-opacity="0.55" stroke-width="2">
+    <path d="M0 40 C 610 40, 670 20, 910 20 S 1100 40, 1200 40"/>
+    <path d="M0 80 C 630 80, 690 50, 910 50 S 1090 80, 1200 80"/>
+    <path d="M0 120 C 650 120, 710 76, 910 76 S 1080 120, 1200 120"/>
+    <path d="M0 180 C 650 180, 710 224, 910 224 S 1080 180, 1200 180"/>
+    <path d="M0 220 C 630 220, 690 250, 910 250 S 1090 220, 1200 220"/>
+    <path d="M0 260 C 610 260, 670 280, 910 280 S 1100 260, 1200 260"/>
+  </g>
+  <!-- the lattice (the sample) -->
+  <g transform="translate(310 0)">
+    <rect x="470" y="96" width="260" height="108" rx="10" fill="#0d3550" stroke="#7fe7ff" stroke-opacity="0.6"/>
+    <g fill="#bff4ff">
+      <circle cx="500" cy="122" r="5"/><circle cx="540" cy="122" r="5"/><circle cx="580" cy="122" r="5"/><circle cx="620" cy="122" r="5"/><circle cx="660" cy="122" r="5"/><circle cx="700" cy="122" r="5"/>
+      <circle cx="500" cy="150" r="5"/><circle cx="540" cy="150" r="5"/><circle cx="580" cy="150" r="5"/><circle cx="620" cy="150" r="5"/><circle cx="660" cy="150" r="5"/><circle cx="700" cy="150" r="5"/>
+      <circle cx="500" cy="178" r="5"/><circle cx="540" cy="178" r="5"/><circle cx="580" cy="178" r="5"/><circle cx="620" cy="178" r="5"/><circle cx="660" cy="178" r="5"/><circle cx="700" cy="178" r="5"/>
+    </g>
+    <!-- a Cooper pair -->
+    <circle cx="560" cy="136" r="22" fill="url(#glow)"/>
+    <circle cx="640" cy="164" r="22" fill="url(#glow)"/>
+    <path d="M560 136 Q 600 120 640 164" stroke="#ffd36e" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+  </g>
+  <text x="40" y="160" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#e8f7ff">Ambient Superconductivity Lab</text>
+  <text x="40" y="196" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#9cc9e0">Prove every step. Score every claim.</text>
+</svg>

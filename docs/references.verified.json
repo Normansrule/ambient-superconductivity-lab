@@ -1,0 +1,1125 @@
+{
+  "generator": "asl.refs.verify 0.0.1",
+  "rule": "title>=0.85 or containment; |year|<=1; first-author family match",
+  "entries": {
+    "allen1975": {
+      "doi": "10.1103/PhysRevB.12.905",
+      "fingerprint": "96bba5ba838e5805",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Transition temperature of strong-coupled superconductors reanalyzed",
+        "year": 1975,
+        "first_author": "Allen"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "allen1983": {
+      "doi": "10.1016/S0081-1947(08)60665-7",
+      "fingerprint": "e34e19c64d6e4f6c",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Theory of Superconducting Tc",
+        "year": 1983,
+        "first_author": "Allen"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "ashcroft1968": {
+      "doi": "10.1103/PhysRevLett.21.1748",
+      "fingerprint": "78409e4cceb37732",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Metallic Hydrogen: A High-Temperature Superconductor?",
+        "year": 1968,
+        "first_author": "Ashcroft"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "ashcroft2004": {
+      "doi": "10.1103/PhysRevLett.92.187002",
+      "fingerprint": "7065e9c25f8d645d",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Hydrogen Dominant Metallic Alloys: High Temperature Superconductors?",
+        "year": 2004,
+        "first_author": "Ashcroft"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "bardeen1957": {
+      "doi": "10.1103/PhysRev.108.1175",
+      "fingerprint": "45504d859a9398e1",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Theory of Superconductivity",
+        "year": 1957,
+        "first_author": "Bardeen"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "bednorz1986": {
+      "doi": "10.1007/BF01303701",
+      "fingerprint": "ee2aac6b521c796d",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Possible highT c superconductivity in the Ba?La?Cu?O system",
+        "year": 1986,
+        "first_author": "Bednorz"
+      },
+      "status": "ok",
+      "title_similarity": 0.983,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "boeri2022": {
+      "doi": "10.1088/1361-648X/ac2864",
+      "fingerprint": "a02b4c7308ec524f",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "The 2021 room-temperature superconductivity roadmap",
+        "year": 2022,
+        "first_author": "Boeri"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "carbotte1990": {
+      "doi": "10.1103/RevModPhys.62.1027",
+      "fingerprint": "81be6b5dcd9526cf",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Properties of boson-exchange superconductors",
+        "year": 1990,
+        "first_author": "Carbotte"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "choudhary2022": {
+      "doi": "10.1038/s41524-022-00933-1",
+      "fingerprint": "177ce074386881d2",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Designing high-TC superconductors with BCS-inspired screening, density functional theory, and deep-learning",
+        "year": 2022,
+        "first_author": "Choudhary"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "cooper1956": {
+      "doi": "10.1103/PhysRev.104.1189",
+      "fingerprint": "54e60733e50705e9",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Bound Electron Pairs in a Degenerate Fermi Gas",
+        "year": 1956,
+        "first_author": "Cooper"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "dasenbrock-gammon2023": {
+      "doi": "10.1038/s41586-023-05742-0",
+      "fingerprint": "739ad7b44a0a53f6",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "RETRACTED ARTICLE: Evidence of near-ambient superconductivity in a N-doped lutetium hydride",
+        "year": 2023,
+        "first_author": "Dasenbrock-Gammon"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "dasenbrock-gammon2023a": {
+      "doi": "10.1038/s41586-023-06774-2",
+      "fingerprint": "d4500ab8ac193dd7",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Retraction Note: Evidence of near-ambient superconductivity in a N-doped lutetium hydride",
+        "year": 2023,
+        "first_author": "Dasenbrock-Gammon"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "drozdov2015": {
+      "doi": "10.1038/nature14964",
+      "fingerprint": "a1367b896152187b",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Conventional superconductivity at 203 kelvin at high pressures in the sulfur hydride system",
+        "year": 2015,
+        "first_author": "Drozdov"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "drozdov2019": {
+      "doi": "10.1038/s41586-019-1201-8",
+      "fingerprint": "0cd39a9f7a8c4cba",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Superconductivity at 250 K in lanthanum hydride under high pressures",
+        "year": 2019,
+        "first_author": "Drozdov"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "duan2014": {
+      "doi": "10.1038/srep06968",
+      "fingerprint": "e5e946c3d7617c33",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Pressure-induced metallization of dense (H2S)2H2 with high-Tc superconductivity",
+        "year": 2014,
+        "first_author": "Duan"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "durkee2021": {
+      "doi": "10.1103/PhysRevLett.127.016401",
+      "fingerprint": "766508f7e6abd171",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "RETRACTED: Colossal Density-Driven Resistance Response in the Negative Charge Transfer Insulator <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi>MnS</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>2</mml:mn> </mml:mrow> </mml:msub> </mml:mrow> </mml:math>",
+        "year": 2021,
+        "first_author": "Durkee"
+      },
+      "status": "ok",
+      "title_similarity": 0.994,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "eremets2022": {
+      "doi": "10.1007/s10948-022-06148-1",
+      "fingerprint": "e95953e14af1b7de",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "High-Temperature Superconductivity in Hydrides: Experimental Evidence and Details",
+        "year": 2022,
+        "first_author": "Eremets"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "errea2020": {
+      "doi": "10.1038/s41586-020-1955-z",
+      "fingerprint": "db96fe976de1d141",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Quantum crystal structure in the 250-kelvin superconducting lanthanum hydride",
+        "year": 2020,
+        "first_author": "Errea"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "flores-livas2020": {
+      "doi": "10.1016/j.physrep.2020.02.003",
+      "fingerprint": "76baeeeedfceba92",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "A perspective on conventional high-temperature superconductors at high pressure: Methods and materials",
+        "year": 2020,
+        "first_author": "Flores-Livas"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "gao1994": {
+      "doi": "10.1103/PhysRevB.50.4260",
+      "fingerprint": "ce82bbc87c2d747b",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Superconductivity up to 164 K in <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi mathvariant=\"normal\">HgBa</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>2</mml:mn> </mml:mrow> </mml:msub> </mml:mrow> </mml:math> <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi mathvariant=\"normal\">Ca</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant=\"italic\">m</mml:mi> <mml:mi mathvariant=\"normal\">−</mml:mi> <mml:mn>1</mml:mn> </mml:mrow> </mml:msub> </mml:mrow> </mml:math> <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi mathvariant=\"normal\">Cu</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant=\"italic\">m</mml:mi> </mml:mrow> </mml:msub> </mml:mrow> </mml:math> <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:msub> <mml:mrow> <mml:mi mathvariant=\"normal\">O</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>2</mml:mn> <mml:mi mathvariant=\"italic\">m</mml:mi> <mml:mo>+</mml:mo> <mml:mn>2</mml:mn> <mml:mo>+</mml:mo> <mml:mi mathvariant=\"normal\">δ</mml:mi> </mml:mrow> </mml:msub> </mml:mrow> </mml:math> ( <i>m</i> =1, 2, and 3) under quasihydrostatic pressures",
+        "year": 1994,
+        "first_author": "Gao"
+      },
+      "status": "ok",
+      "title_similarity": 0.957,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "garisto2023": {
+      "doi": "10.1038/d41586-023-02585-7",
+      "fingerprint": "ed2abae229a448a1",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "LK-99 isn’t a superconductor — how science sleuths solved the mystery",
+        "year": 2023,
+        "first_author": "Garisto"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "giannozzi2009": {
+      "doi": "10.1088/0953-8984/21/39/395502",
+      "fingerprint": "8fa7127a8b2922ae",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+        "year": 2009,
+        "first_author": "Giannozzi"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "giannozzi2017": {
+      "doi": "10.1088/1361-648X/aa8f79",
+      "fingerprint": "b74675bb13c74230",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Advanced capabilities for materials modelling with Q <scp>uantum</scp> ESPRESSO",
+        "year": 2017,
+        "first_author": "Giannozzi"
+      },
+      "status": "ok",
+      "title_similarity": 0.993,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "giustino2017": {
+      "doi": "10.1103/RevModPhys.89.015003",
+      "fingerprint": "8a53ec5d2573fc98",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Electron-phonon interactions from first principles",
+        "year": 2017,
+        "first_author": "Giustino"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "hamidieh2018": {
+      "doi": "10.1016/j.commatsci.2018.07.052",
+      "fingerprint": "716f4f71f8346e6d",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "A data-driven statistical model for predicting the critical temperature of a superconductor",
+        "year": 2018,
+        "first_author": "Hamidieh"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "harris2020": {
+      "doi": "10.1038/s41586-020-2649-2",
+      "fingerprint": "b9dacc3cbe12643e",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Array programming with NumPy",
+        "year": 2020,
+        "first_author": "Harris"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "hirsch2021": {
+      "doi": "10.1038/s41586-021-03595-z",
+      "fingerprint": "650e7226c9348d71",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Unusual width of the superconducting transition in a hydride",
+        "year": 2021,
+        "first_author": "Hirsch"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "hunter2007": {
+      "doi": "10.1109/MCSE.2007.55",
+      "fingerprint": "4e77843bfd4dc265",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Matplotlib: A 2D Graphics Environment",
+        "year": 2007,
+        "first_author": "Hunter"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "jain2013": {
+      "doi": "10.1063/1.4812323",
+      "fingerprint": "882c3c691f2eb9d9",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Commentary: The Materials Project: A materials genome approach to accelerating materials innovation",
+        "year": 2013,
+        "first_author": "Jain"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "josephson1962": {
+      "doi": "10.1016/0031-9163(62)91369-0",
+      "fingerprint": "e3e8ebd3a8b679e9",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Possible new effects in superconductive tunnelling",
+        "year": 1962,
+        "first_author": "Josephson"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "kamihara2008": {
+      "doi": "10.1021/ja800073m",
+      "fingerprint": "6217b7b8bc1b9817",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Iron-Based Layered Superconductor La[O <sub>1-</sub> <i> <sub>x</sub> </i> F <i> <sub>x</sub> </i> ]FeAs ( <i>x</i> = 0.05−0.12) with <i>T</i> <sub>c</sub> = 26 K",
+        "year": 2008,
+        "first_author": "Kamihara"
+      },
+      "status": "ok",
+      "title_similarity": 0.973,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "ko2025": {
+      "doi": "10.1038/s41586-024-08525-3",
+      "fingerprint": "384d38bb7bb091bc",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Signatures of ambient pressure superconductivity in thin film La3Ni2O7",
+        "year": 2024,
+        "first_author": "Ko"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "konno2021": {
+      "doi": "10.1103/PhysRevB.103.014509",
+      "fingerprint": "e255fcb477d89993",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Deep learning model for finding new superconductors",
+        "year": 2021,
+        "first_author": "Konno"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "larsen2017": {
+      "doi": "10.1088/1361-648X/aa680e",
+      "fingerprint": "5c74a50f09d33b32",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "The atomic simulation environment—a Python library for working with atoms",
+        "year": 2017,
+        "first_author": "Hjorth Larsen"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "lee2023": {
+      "doi": "10.48550/arXiv.2307.12008",
+      "fingerprint": "89fc5ffdfcad7be3",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "The First Room-Temperature Ambient-Pressure Superconductor",
+        "year": 2023,
+        "first_author": "Lee"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "lee2023a": {
+      "doi": "10.48550/arXiv.2307.12037",
+      "fingerprint": "c1bc10e126bfc6ff",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Superconductor Pb$_{10-x}$Cu$_x$(PO$_4$)$_6$O showing levitation at room temperature and atmospheric pressure and mechanism",
+        "year": 2023,
+        "first_author": "Lee"
+      },
+      "status": "ok",
+      "title_similarity": 0.978,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "lee2023b": {
+      "doi": "10.1038/s41524-023-01107-3",
+      "fingerprint": "3243b105fce3dfc8",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Electron–phonon physics from first principles using the EPW code",
+        "year": 2023,
+        "first_author": "Lee"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "liu2017": {
+      "doi": "10.1073/pnas.1704505114",
+      "fingerprint": "67d7f86280dd8f9c",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Potential high- <i> T <sub>c</sub> </i> superconducting lanthanum and yttrium hydrides at high pressure",
+        "year": 2017,
+        "first_author": "Liu"
+      },
+      "status": "ok",
+      "title_similarity": 0.994,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "london1935": {
+      "doi": "10.1098/rspa.1935.0048",
+      "fingerprint": "fb47d1e25e4d678e",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "The electromagnetic equations of the supraconductor",
+        "year": 1935,
+        "first_author": "London"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "mcmillan1968": {
+      "doi": "10.1103/PhysRev.167.331",
+      "fingerprint": "be649a9bbcb3c397",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Transition Temperature of Strong-Coupled Superconductors",
+        "year": 1968,
+        "first_author": "McMillan"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "meissner1933": {
+      "doi": "10.1007/BF01504252",
+      "fingerprint": "0dd498e558dccc0f",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Ein neuer Effekt bei Eintritt der Supraleitf�higkeit",
+        "year": 1933,
+        "first_author": "Meissner"
+      },
+      "status": "ok",
+      "title_similarity": 0.981,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "muhlschlegel1959": {
+      "doi": "10.1007/BF01332932",
+      "fingerprint": "63ad4226a3024f5b",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Die thermodynamischen Funktionen des Supraleiters",
+        "year": 1959,
+        "first_author": "M�hlschlegel"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": [],
+      "notes": [
+        "registry first author 'M�hlschlegel' contains U+FFFD; matched with each U+FFFD as exactly one letter"
+      ]
+    },
+    "nagamatsu2001": {
+      "doi": "10.1038/35065039",
+      "fingerprint": "2cb9b6637cbf1688",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Superconductivity at 39 K in magnesium diboride",
+        "year": 2001,
+        "first_author": "Nagamatsu"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "ong2013": {
+      "doi": "10.1016/j.commatsci.2012.10.028",
+      "fingerprint": "40bac52b9e916685",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Python Materials Genomics (pymatgen): A robust, open-source python library for materials analysis",
+        "year": 2013,
+        "first_author": "Ong"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "peng2017": {
+      "doi": "10.1103/PhysRevLett.119.107001",
+      "fingerprint": "612ac047aeb6a518",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Hydrogen Clathrate Structures in Rare Earth Hydrides at High Pressures: Possible Route to Room-Temperature Superconductivity",
+        "year": 2017,
+        "first_author": "Peng"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "pickard2020": {
+      "doi": "10.1146/annurev-conmatphys-031218-013413",
+      "fingerprint": "262532749e1d6213",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Superconducting Hydrides Under Pressure",
+        "year": 2020,
+        "first_author": "Pickard"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "ponce2016": {
+      "doi": "10.1016/j.cpc.2016.07.028",
+      "fingerprint": "a94846c306c47198",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "EPW: Electron–phonon coupling, transport and superconducting properties using maximally localized Wannier functions",
+        "year": 2016,
+        "first_author": "Poncé"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "prozorov2011": {
+      "doi": "10.1088/0034-4885/74/12/124505",
+      "fingerprint": "07b5c247aa6c81c3",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "London penetration depth in iron-based superconductors",
+        "year": 2011,
+        "first_author": "Prozorov"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "puphal2023": {
+      "doi": "10.48550/arXiv.2308.06256",
+      "fingerprint": "9c73af9a3bec3485",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Single crystal synthesis, structure, and magnetism of Pb$_{10-x}$Cu$_x$(PO$_4$)$_6$O",
+        "year": 2023,
+        "first_author": "Puphal"
+      },
+      "status": "ok",
+      "title_similarity": 0.965,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "schilling1993": {
+      "doi": "10.1038/363056a0",
+      "fingerprint": "c17b42f9026aca34",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Superconductivity above 130 K in the Hg–Ba–Ca–Cu–O system",
+        "year": 1993,
+        "first_author": "Schilling"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "snider2020": {
+      "doi": "10.1038/s41586-020-2801-z",
+      "fingerprint": "387f687784034e83",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "RETRACTED ARTICLE: Room-temperature superconductivity in a carbonaceous sulfur hydride",
+        "year": 2020,
+        "first_author": "Snider"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "snider2022": {
+      "doi": "10.1038/s41586-022-05294-9",
+      "fingerprint": "ed638b77e4806f0f",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Retraction Note: Room-temperature superconductivity in a carbonaceous sulfur hydride",
+        "year": 2022,
+        "first_author": "Snider"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "somayazulu2019": {
+      "doi": "10.1103/PhysRevLett.122.027001",
+      "fingerprint": "dd88d6e6f75ac315",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Evidence for Superconductivity above 260 K in Lanthanum Superhydride at Megabar Pressures",
+        "year": 2019,
+        "first_author": "Somayazulu"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "stanev2018": {
+      "doi": "10.1038/s41524-018-0085-8",
+      "fingerprint": "3dc47c4b8032b527",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Machine learning modeling of superconducting critical temperature",
+        "year": 2018,
+        "first_author": "Stanev"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "sun2023": {
+      "doi": "10.1038/s41586-023-06408-7",
+      "fingerprint": "a46f86557ea8290b",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Signatures of superconductivity near 80 K in a nickelate under high pressure",
+        "year": 2023,
+        "first_author": "Sun"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "tiesinga2021": {
+      "doi": "10.1103/RevModPhys.93.025010",
+      "fingerprint": "a9d39fb042c77684",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "CODATA recommended values of the fundamental physical constants: 2018",
+        "year": 2021,
+        "first_author": "Tiesinga"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "virtanen2020": {
+      "doi": "10.1038/s41592-019-0686-2",
+      "fingerprint": "86c9eff723ad0672",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+        "year": 2020,
+        "first_author": "Virtanen"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "ward2016": {
+      "doi": "10.1038/npjcompumats.2016.28",
+      "fingerprint": "b4e40f03ef6171d8",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "A general-purpose machine learning framework for predicting properties of inorganic materials",
+        "year": 2016,
+        "first_author": "Ward"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "ward2018": {
+      "doi": "10.1016/j.commatsci.2018.05.018",
+      "fingerprint": "3b810c7f4b8ea47d",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Matminer: An open source toolkit for materials data mining",
+        "year": 2018,
+        "first_author": "Ward"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "wilkinson2016": {
+      "doi": "10.1038/sdata.2016.18",
+      "fingerprint": "3794186185af25a7",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+        "year": 2016,
+        "first_author": "Wilkinson"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "wu1987": {
+      "doi": "10.1103/PhysRevLett.58.908",
+      "fingerprint": "ebb26c260baf22f1",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "Superconductivity at 93 K in a new mixed-phase Y-Ba-Cu-O compound system at ambient pressure",
+        "year": 1987,
+        "first_author": "Wu"
+      },
+      "status": "ok",
+      "title_similarity": 1.0,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    },
+    "zhu2023": {
+      "doi": "10.48550/arXiv.2308.04353",
+      "fingerprint": "a7e200d142d048b7",
+      "checked": "2026-11-14",
+      "remote": {
+        "title": "First order transition in Pb$_{10-x}$Cu$_x$(PO$_4$)$_6$O ($0.9",
+        "year": 2023,
+        "first_author": "Zhu"
+      },
+      "status": "ok",
+      "title_similarity": 0.81,
+      "checks": {
+        "title": true,
+        "year": true,
+        "author": true
+      },
+      "problems": []
+    }
+  }
+}

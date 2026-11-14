@@ -1,0 +1,77 @@
+# Stage registry. `ci: true` means CI runs `make prove-N` for this stage.
+# state: planned | in-progress | proved (make prove-N passes) | done (proved AND approved)
+# A stage becomes `done` only when Aleksander records approval below.
+# Do not start stage N+1 until stage N is `done`.
+stages:
+  - id: 0
+    name: Foundation
+    weeks: "1 week"
+    cost: "$0"
+    state: in-progress
+    ci: true
+    approved_by: null
+    approved_on: null
+  - id: 1
+    name: Theory engine
+    weeks: "3 weeks"
+    cost: "$0"
+    state: planned
+    ci: false
+    approved_by: null
+    approved_on: null
+  - id: 2
+    name: Curated data and landscape
+    weeks: "2–3 weeks"
+    cost: "$0"
+    state: planned
+    ci: false
+    approved_by: null
+    approved_on: null
+  - id: 3
+    name: Machine learning screening baseline
+    weeks: "3–4 weeks"
+    cost: "$0"
+    state: planned
+    ci: false
+    approved_by: null
+    approved_on: null
+  - id: 4
+    name: Claim checklist (flagship)
+    weeks: "3 weeks"
+    cost: "$0"
+    state: planned
+    ci: false
+    approved_by: null
+    approved_on: null
+  - id: 5
+    name: Tabletop measurement
+    weeks: "4–6 weeks"
+    cost: "TODO: verify cap"
+    state: planned
+    ci: false
+    approved_by: null
+    approved_on: null
+  - id: 6
+    name: First-principles check (optional)
+    weeks: "4–6 weeks"
+    cost: "compute only"
+    state: planned
+    ci: false
+    approved_by: null
+    approved_on: null
+  - id: 7
+    name: Preregistered predictions preprint
+    weeks: "4 weeks"
+    cost: "$0"
+    state: planned
+    ci: false
+    approved_by: null
+    approved_on: null
+  - id: 8
+    name: Collaboration proposal
+    weeks: "ongoing"
+    cost: "$0"
+    state: planned
+    ci: false
+    approved_by: null
+    approved_on: null

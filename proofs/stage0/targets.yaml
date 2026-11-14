@@ -1,0 +1,74 @@
+# Stage 0 targets — Foundation. All targets are "meta" (repository facts),
+# so they carry no bibkey. Physical targets begin in Stage 1.
+stage: 0
+name: Foundation
+targets:
+  - id: required_files_missing
+    quantity: Required top-level files and workflows that are missing
+    expected: 0
+    comparator: eq
+    kind: meta
+    unit: files
+    rationale: README, Makefile, CONTRIBUTING, CITATION.cff, ROADMAP, both licenses, the conda environment, and the CI and Pages workflows exist.
+
+  - id: tree_dirs_missing
+    quantity: Directories from the agreed structure that are missing
+    expected: 0
+    comparator: eq
+    kind: meta
+    unit: directories
+    rationale: docs/, src/asl/, and the other agreed directories exist, so later stages have a home.
+
+  - id: bib_entries_total
+    quantity: Entries in docs/references.bib
+    expected: 40
+    comparator: ge
+    kind: meta
+    unit: entries
+
+  - id: bib_lint_errors
+    quantity: Errors reported by the bibliography linter
+    expected: 0
+    comparator: eq
+    kind: meta
+    unit: errors
+    rationale: Keys, required fields, DOI and ISBN formats, retraction links, and TODO placement are all valid.
+
+  - id: bib_doi_verified
+    quantity: Entries whose DOI was verified online against the registry (title, year, first author)
+    expected: 40
+    comparator: ge
+    kind: meta
+    unit: entries
+    rationale: The "40+ verified references" requirement, proved by machine rather than asserted.
+
+  - id: bib_doi_not_ok
+    quantity: Entries with a DOI that are unverified, unresolved, or mismatched
+    expected: 0
+    comparator: eq
+    kind: meta
+    unit: entries
+    rationale: Every DOI in the file must check out, not just the first forty.
+
+  - id: citation_cff_errors
+    quantity: Problems found in CITATION.cff
+    expected: 0
+    comparator: eq
+    kind: meta
+    unit: errors
+
+  - id: readme_status_markers
+    quantity: README status-table marker pairs
+    expected: 1
+    comparator: eq
+    kind: meta
+    unit: pairs
+    rationale: The status table is generated, not hand-edited.
+
+  - id: registry_stages
+    quantity: Stages listed in proofs/registry.yaml
+    expected: 9
+    comparator: eq
+    kind: meta
+    unit: stages
+    rationale: S0 through S8 are all registered, so the roadmap and the proof system agree.

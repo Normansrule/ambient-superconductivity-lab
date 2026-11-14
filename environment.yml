@@ -1,0 +1,30 @@
+# Full research environment. Create with:  make env   (or: mamba env create -f environment.yml)
+# CI uses the lighter requirements-ci.txt for Stage 0; heavier packages join CI in the stage that needs them.
+name: asl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - scipy
+  - sympy
+  - pandas
+  - pyyaml
+  - matplotlib
+  - plotly
+  - scikit-learn
+  - pytorch            # Stage 3; CPU build from conda-forge
+  - pymatgen           # Stages 2–3
+  - ase                # Stage 6
+  - matminer           # Stage 3
+  - jupyterlab
+  - manim              # Stage 1 animations (needs cairo, pango, ffmpeg; conda-forge provides them)
+  - pytest
+  - nodejs=22          # site build
+  - make
+  - pip:
+      - mp-api         # Materials Project client; needs MP_API_KEY (never commit it)
+      - -e .
+# Optional, Stage 6 only (install separately when that stage begins):
+#   qe (Quantum ESPRESSO, conda-forge) and EPW built from the official sources.

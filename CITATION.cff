@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or its claim-evaluation rubric, please cite it as
+  below. Documentation is licensed CC BY 4.0; code is licensed MIT.
+title: "Ambient Superconductivity Lab"
+abstract: >-
+  A staged, provable, open platform toward the search for ambient-pressure,
+  room-temperature superconductors, built to be a trustworthy tool for
+  evaluating superconductivity claims. Every stage is checked by an automated
+  proof, and predictions are preregistered before validation.
+type: software
+authors:
+  - family-names: Norman
+    given-names: Aleksander
+repository-code: "https://github.com/Normansrule/ambient-superconductivity-lab"
+url: "https://normansrule.github.io/ambient-superconductivity-lab/"
+license: MIT
+version: 0.0.1
+keywords:
+  - superconductivity
+  - condensed matter physics
+  - materials informatics
+  - reproducibility
+  - preregistration

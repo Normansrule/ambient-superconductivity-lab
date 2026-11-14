@@ -1,0 +1,794 @@
+% references.bib — Ambient Superconductivity Lab
+%
+% Rules (enforced by `make lint-bib` and `make verify-refs`):
+%   * Never invent a citation. If unsure, set asl_status = {todo-verify} and say
+%     "TODO: verify" in note. Such entries do not count as verified.
+%   * Entries with a DOI are verified online against the DOI registry
+%     (title, year, first author); results live in references.verified.json.
+%   * Entries without a DOI need asl_status = {manual} plus asl_check, written
+%     only after a human has checked the original source.
+%   * asl_record marks published, preprint, retracted, retraction-notice, news,
+%     software, or book. Retracted papers must name asl_retraction_doi.
+%   * "and others" is used where the full author list has not been checked;
+%     expand it from the registry record before quoting the reference in APA.
+%
+% Sections: 1 foundations and theory; 2 materials milestones; 3 hydrides;
+%           4 refuted and retracted claims; 5 data and machine learning;
+%           6 first-principles tools; 7 scientific software and data practice.
+
+% ---------------------------------------------------------------------------
+% 1. Foundations and theory
+% ---------------------------------------------------------------------------
+
+@article{onnes1911,
+  author     = {Kamerlingh Onnes, Heike},
+  title      = {The Resistance of Pure Mercury at Helium Temperatures},
+  journal    = {Communications from the Physical Laboratory of the University of Leiden},
+  number     = {120b},
+  year       = {1911},
+  asl_status = {todo-verify},
+  note       = {TODO: verify against a scan of the original communication; no DOI.}
+}
+
+@article{meissner1933,
+  author  = {Meissner, Walther and Ochsenfeld, Robert},
+  title   = {Ein neuer {Effekt} bei {Eintritt} der {Supraleitf{\"a}higkeit}},
+  journal = {Die Naturwissenschaften},
+  volume  = {21},
+  number  = {44},
+  pages   = {787--788},
+  year    = {1933},
+  doi     = {10.1007/BF01504252}
+}
+
+@article{london1935,
+  author  = {London, Fritz and London, Heinz},
+  title   = {The Electromagnetic Equations of the Supraconductor},
+  journal = {Proceedings of the Royal Society of London. Series A},
+  volume  = {149},
+  number  = {866},
+  pages   = {71--88},
+  year    = {1935},
+  doi     = {10.1098/rspa.1935.0048}
+}
+
+@article{ginzburg1950,
+  author     = {Ginzburg, Vitaly L. and Landau, Lev D.},
+  title      = {On the Theory of Superconductivity},
+  journal    = {Zhurnal Eksperimental'noi i Teoreticheskoi Fiziki},
+  volume     = {20},
+  pages      = {1064},
+  year       = {1950},
+  asl_status = {todo-verify},
+  note       = {TODO: verify volume and page against the original or an authoritative translation; no DOI.}
+}
+
+@article{cooper1956,
+  author  = {Cooper, Leon N.},
+  title   = {Bound Electron Pairs in a Degenerate {Fermi} Gas},
+  journal = {Physical Review},
+  volume  = {104},
+  number  = {4},
+  pages   = {1189--1190},
+  year    = {1956},
+  doi     = {10.1103/PhysRev.104.1189}
+}
+
+@article{abrikosov1957,
+  author     = {Abrikosov, Alexei A.},
+  title      = {On the Magnetic Properties of Superconductors of the Second Group},
+  journal    = {Soviet Physics JETP},
+  volume     = {5},
+  pages      = {1174},
+  year       = {1957},
+  asl_status = {todo-verify},
+  note       = {TODO: verify volume, page, and exact English title; no DOI.}
+}
+
+@article{bardeen1957,
+  author  = {Bardeen, John and Cooper, Leon N. and Schrieffer, J. Robert},
+  title   = {Theory of Superconductivity},
+  journal = {Physical Review},
+  volume  = {108},
+  number  = {5},
+  pages   = {1175--1204},
+  year    = {1957},
+  doi     = {10.1103/PhysRev.108.1175}
+}
+
+@article{gorkov1959,
+  author     = {Gor'kov, Lev P.},
+  title      = {Microscopic Derivation of the {Ginzburg}--{Landau} Equations in the Theory of Superconductivity},
+  journal    = {Soviet Physics JETP},
+  volume     = {9},
+  pages      = {1364},
+  year       = {1959},
+  asl_status = {todo-verify},
+  note       = {TODO: verify volume and page; no DOI.}
+}
+
+@article{muhlschlegel1959,
+  author  = {M{\"u}hlschlegel, Bernhard},
+  title   = {Die thermodynamischen {Funktionen} des {Supraleiters}},
+  journal = {Zeitschrift f{\"u}r Physik},
+  volume  = {155},
+  number  = {3},
+  pages   = {313--327},
+  year    = {1959},
+  doi     = {10.1007/BF01332932},
+  note    = {Numerical BCS thermodynamics; reference values for the Stage 1 gap and specific-heat proofs.}
+}
+
+@article{eliashberg1960,
+  author     = {Eliashberg, G. M.},
+  title      = {Interactions between Electrons and Lattice Vibrations in a Superconductor},
+  journal    = {Soviet Physics JETP},
+  volume     = {11},
+  pages      = {696},
+  year       = {1960},
+  asl_status = {todo-verify},
+  note       = {TODO: verify volume, page, and English title; no DOI.}
+}
+
+@article{josephson1962,
+  author  = {Josephson, Brian D.},
+  title   = {Possible New Effects in Superconductive Tunnelling},
+  journal = {Physics Letters},
+  volume  = {1},
+  number  = {7},
+  pages   = {251--253},
+  year    = {1962},
+  doi     = {10.1016/0031-9163(62)91369-0}
+}
+
+@article{mcmillan1968,
+  author  = {McMillan, William L.},
+  title   = {Transition Temperature of Strong-Coupled Superconductors},
+  journal = {Physical Review},
+  volume  = {167},
+  number  = {2},
+  pages   = {331--344},
+  year    = {1968},
+  doi     = {10.1103/PhysRev.167.331}
+}
+
+@article{allen1975,
+  author  = {Allen, Philip B. and Dynes, Robert C.},
+  title   = {Transition Temperature of Strong-Coupled Superconductors Reanalyzed},
+  journal = {Physical Review B},
+  volume  = {12},
+  number  = {3},
+  pages   = {905--922},
+  year    = {1975},
+  doi     = {10.1103/PhysRevB.12.905}
+}
+
+@incollection{allen1983,
+  author    = {Allen, Philip B. and Mitrovi{\'c}, Bo{\v{z}}idar},
+  title     = {Theory of Superconducting {Tc}},
+  booktitle = {Solid State Physics},
+  volume    = {37},
+  pages     = {1--92},
+  publisher = {Academic Press},
+  year      = {1983},
+  doi       = {10.1016/S0081-1947(08)60665-7}
+}
+
+@article{carbotte1990,
+  author  = {Carbotte, Jules P.},
+  title   = {Properties of Boson-Exchange Superconductors},
+  journal = {Reviews of Modern Physics},
+  volume  = {62},
+  number  = {4},
+  pages   = {1027--1157},
+  year    = {1990},
+  doi     = {10.1103/RevModPhys.62.1027}
+}
+
+@book{tinkham2004,
+  author     = {Tinkham, Michael},
+  title      = {Introduction to Superconductivity},
+  edition    = {2},
+  publisher  = {Dover Publications},
+  year       = {2004},
+  isbn       = {978-0-486-43503-9},
+  asl_status = {todo-verify},
+  asl_record = {book},
+  note       = {TODO: verify ISBN against the publisher record (checksum passes).}
+}
+
+@article{prozorov2011,
+  author  = {Prozorov, Ruslan and Kogan, Vladimir G.},
+  title   = {London Penetration Depth in Iron-Based Superconductors},
+  journal = {Reports on Progress in Physics},
+  volume  = {74},
+  number  = {12},
+  pages   = {124505},
+  year    = {2011},
+  doi     = {10.1088/0034-4885/74/12/124505}
+}
+
+@article{giustino2017,
+  author  = {Giustino, Feliciano},
+  title   = {Electron-Phonon Interactions from First Principles},
+  journal = {Reviews of Modern Physics},
+  volume  = {89},
+  number  = {1},
+  pages   = {015003},
+  year    = {2017},
+  doi     = {10.1103/RevModPhys.89.015003}
+}
+
+@article{tiesinga2021,
+  author  = {Tiesinga, Eite and Mohr, Peter J. and Newell, David B. and Taylor, Barry N.},
+  title   = {{CODATA} Recommended Values of the Fundamental Physical Constants: 2018},
+  journal = {Reviews of Modern Physics},
+  volume  = {93},
+  number  = {2},
+  pages   = {025010},
+  year    = {2021},
+  doi     = {10.1103/RevModPhys.93.025010}
+}
+
+% ---------------------------------------------------------------------------
+% 2. Materials milestones (ambient and high pressure)
+% ---------------------------------------------------------------------------
+
+@article{bednorz1986,
+  author  = {Bednorz, J. Georg and M{\"u}ller, K. Alex},
+  title   = {Possible High {Tc} Superconductivity in the {Ba-La-Cu-O} System},
+  journal = {Zeitschrift f{\"u}r Physik B Condensed Matter},
+  volume  = {64},
+  number  = {2},
+  pages   = {189--193},
+  year    = {1986},
+  doi     = {10.1007/BF01303701}
+}
+
+@article{wu1987,
+  author  = {Wu, Maw-Kuen and Ashburn, J. R. and Torng, C. J. and Hor, P. H. and Meng, R. L. and Gao, L. and Huang, Z. J. and Wang, Y. Q. and Chu, C. W.},
+  title   = {Superconductivity at 93 {K} in a New Mixed-Phase {Y-Ba-Cu-O} Compound System at Ambient Pressure},
+  journal = {Physical Review Letters},
+  volume  = {58},
+  number  = {9},
+  pages   = {908--910},
+  year    = {1987},
+  doi     = {10.1103/PhysRevLett.58.908}
+}
+
+@article{schilling1993,
+  author  = {Schilling, A. and Cantoni, M. and Guo, J. D. and Ott, H. R.},
+  title   = {Superconductivity above 130 {K} in the {Hg-Ba-Ca-Cu-O} System},
+  journal = {Nature},
+  volume  = {363},
+  pages   = {56--58},
+  year    = {1993},
+  doi     = {10.1038/363056a0}
+}
+
+@article{gao1994,
+  author  = {Gao, L. and Xue, Y. Y. and Chen, F. and Xiong, Q. and Meng, R. L. and Ramirez, D. and Chu, C. W. and Eggert, J. H. and Mao, H. K.},
+  title   = {Superconductivity up to 164 {K} in {HgBa2Ca(m-1)Cu(m)O(2m+2+delta)} (m=1, 2, and 3) under Quasihydrostatic Pressures},
+  journal = {Physical Review B},
+  volume  = {50},
+  number  = {6},
+  pages   = {4260--4263},
+  year    = {1994},
+  doi     = {10.1103/PhysRevB.50.4260}
+}
+
+@article{nagamatsu2001,
+  author  = {Nagamatsu, Jun and Nakagawa, Norimasa and Muranaka, Takahiro and Zenitani, Yuji and Akimitsu, Jun},
+  title   = {Superconductivity at 39 {K} in Magnesium Diboride},
+  journal = {Nature},
+  volume  = {410},
+  pages   = {63--64},
+  year    = {2001},
+  doi     = {10.1038/35065039}
+}
+
+@article{kamihara2008,
+  author  = {Kamihara, Yoichi and Watanabe, Takumi and Hirano, Masahiro and Hosono, Hideo},
+  title   = {Iron-Based Layered Superconductor {La[O1-xFx]FeAs} (x = 0.05-0.12) with {Tc} = 26 {K}},
+  journal = {Journal of the American Chemical Society},
+  volume  = {130},
+  number  = {11},
+  pages   = {3296--3297},
+  year    = {2008},
+  doi     = {10.1021/ja800073m}
+}
+
+@article{sun2023,
+  author  = {Sun, Hualei and others},
+  title   = {Signatures of Superconductivity near 80 {K} in a Nickelate under High Pressure},
+  journal = {Nature},
+  volume  = {621},
+  pages   = {493--498},
+  year    = {2023},
+  doi     = {10.1038/s41586-023-06408-7}
+}
+
+@article{ko2025,
+  author  = {Ko, Eun Kyo and others},
+  title   = {Signatures of Ambient Pressure Superconductivity in Thin Film {La3Ni2O7}},
+  journal = {Nature},
+  volume  = {638},
+  pages   = {935--940},
+  year    = {2025},
+  doi     = {10.1038/s41586-024-08525-3},
+  note    = {Published online December 2024; print issue 2025.}
+}
+
+% ---------------------------------------------------------------------------
+% 3. Hydrides under pressure
+% ---------------------------------------------------------------------------
+
+@article{ashcroft1968,
+  author  = {Ashcroft, Neil W.},
+  title   = {Metallic Hydrogen: {A} High-Temperature Superconductor?},
+  journal = {Physical Review Letters},
+  volume  = {21},
+  number  = {26},
+  pages   = {1748--1749},
+  year    = {1968},
+  doi     = {10.1103/PhysRevLett.21.1748}
+}
+
+@article{ashcroft2004,
+  author  = {Ashcroft, Neil W.},
+  title   = {Hydrogen Dominant Metallic Alloys: {High} Temperature Superconductors?},
+  journal = {Physical Review Letters},
+  volume  = {92},
+  number  = {18},
+  pages   = {187002},
+  year    = {2004},
+  doi     = {10.1103/PhysRevLett.92.187002}
+}
+
+@article{duan2014,
+  author  = {Duan, Defang and Liu, Yunxian and Tian, Fubo and Li, Da and Huang, Xiaoli and Zhao, Zhonglong and Yu, Hongyu and Liu, Bingbing and Tian, Wenjing and Cui, Tian},
+  title   = {Pressure-Induced Metallization of Dense {(H2S)2H2} with High-{Tc} Superconductivity},
+  journal = {Scientific Reports},
+  volume  = {4},
+  pages   = {6968},
+  year    = {2014},
+  doi     = {10.1038/srep06968}
+}
+
+@article{drozdov2015,
+  author  = {Drozdov, A. P. and Eremets, M. I. and Troyan, I. A. and Ksenofontov, V. and Shylin, S. I.},
+  title   = {Conventional Superconductivity at 203 Kelvin at High Pressures in the Sulfur Hydride System},
+  journal = {Nature},
+  volume  = {525},
+  pages   = {73--76},
+  year    = {2015},
+  doi     = {10.1038/nature14964}
+}
+
+@article{liu2017,
+  author  = {Liu, Hanyu and Naumov, Ivan I. and Hoffmann, Roald and Ashcroft, N. W. and Hemley, Russell J.},
+  title   = {Potential High-{Tc} Superconducting Lanthanum and Yttrium Hydrides at High Pressure},
+  journal = {Proceedings of the National Academy of Sciences},
+  volume  = {114},
+  number  = {27},
+  pages   = {6990--6995},
+  year    = {2017},
+  doi     = {10.1073/pnas.1704505114}
+}
+
+@article{peng2017,
+  author  = {Peng, Feng and Sun, Ying and Pickard, Chris J. and Needs, Richard J. and Wu, Qiang and Ma, Yanming},
+  title   = {Hydrogen Clathrate Structures in Rare Earth Hydrides at High Pressures: {Possible} Route to Room-Temperature Superconductivity},
+  journal = {Physical Review Letters},
+  volume  = {119},
+  number  = {10},
+  pages   = {107001},
+  year    = {2017},
+  doi     = {10.1103/PhysRevLett.119.107001}
+}
+
+@article{drozdov2019,
+  author  = {Drozdov, A. P. and others},
+  title   = {Superconductivity at 250 {K} in Lanthanum Hydride under High Pressures},
+  journal = {Nature},
+  volume  = {569},
+  pages   = {528--531},
+  year    = {2019},
+  doi     = {10.1038/s41586-019-1201-8}
+}
+
+@article{somayazulu2019,
+  author  = {Somayazulu, Maddury and Ahart, Muhtar and Mishra, Ajay K. and Geballe, Zachary M. and Baldini, Maria and Meng, Yue and Struzhkin, Viktor V. and Hemley, Russell J.},
+  title   = {Evidence for Superconductivity above 260 {K} in Lanthanum Superhydride at Megabar Pressures},
+  journal = {Physical Review Letters},
+  volume  = {122},
+  number  = {2},
+  pages   = {027001},
+  year    = {2019},
+  doi     = {10.1103/PhysRevLett.122.027001}
+}
+
+@article{errea2020,
+  author  = {Errea, Ion and others},
+  title   = {Quantum Crystal Structure in the 250-Kelvin Superconducting Lanthanum Hydride},
+  journal = {Nature},
+  volume  = {578},
+  pages   = {66--69},
+  year    = {2020},
+  doi     = {10.1038/s41586-020-1955-z}
+}
+
+@article{pickard2020,
+  author  = {Pickard, Chris J. and Errea, Ion and Eremets, Mikhail I.},
+  title   = {Superconducting Hydrides under Pressure},
+  journal = {Annual Review of Condensed Matter Physics},
+  volume  = {11},
+  pages   = {57--76},
+  year    = {2020},
+  doi     = {10.1146/annurev-conmatphys-031218-013413}
+}
+
+@article{flores-livas2020,
+  author  = {Flores-Livas, Jos{\'e} A. and Boeri, Lilia and Sanna, Antonio and Profeta, Gianni and Arita, Ryotaro and Eremets, Mikhail},
+  title   = {A Perspective on Conventional High-Temperature Superconductors at High Pressure: {Methods} and Materials},
+  journal = {Physics Reports},
+  volume  = {856},
+  pages   = {1--78},
+  year    = {2020},
+  doi     = {10.1016/j.physrep.2020.02.003}
+}
+
+@article{hirsch2021,
+  author  = {Hirsch, J. E. and Marsiglio, F.},
+  title   = {Unusual Width of the Superconducting Transition in a Hydride},
+  journal = {Nature},
+  volume  = {596},
+  pages   = {E9--E10},
+  year    = {2021},
+  doi     = {10.1038/s41586-021-03595-z}
+}
+
+@article{boeri2022,
+  author  = {Boeri, Lilia and others},
+  title   = {The 2021 Room-Temperature Superconductivity Roadmap},
+  journal = {Journal of Physics: Condensed Matter},
+  volume  = {34},
+  number  = {18},
+  pages   = {183002},
+  year    = {2022},
+  doi     = {10.1088/1361-648X/ac2864},
+  note    = {Published online 2021; volume 34 is the 2022 volume.}
+}
+
+@article{eremets2022,
+  author  = {Eremets, Mikhail I. and others},
+  title   = {High-Temperature Superconductivity in Hydrides: {Experimental} Evidence and Details},
+  journal = {Journal of Superconductivity and Novel Magnetism},
+  volume  = {35},
+  pages   = {965--977},
+  year    = {2022},
+  doi     = {10.1007/s10948-022-06148-1}
+}
+
+% ---------------------------------------------------------------------------
+% 4. Refuted and retracted claims (described only as the record shows)
+% ---------------------------------------------------------------------------
+
+@article{snider2020,
+  author             = {Snider, Elliot and others},
+  title              = {Room-Temperature Superconductivity in a Carbonaceous Sulfur Hydride},
+  journal            = {Nature},
+  volume             = {586},
+  pages              = {373--377},
+  year               = {2020},
+  doi                = {10.1038/s41586-020-2801-z},
+  asl_record         = {retracted},
+  asl_retraction_doi = {10.1038/s41586-022-05294-9}
+}
+
+@article{snider2022,
+  author     = {Snider, Elliot and others},
+  title      = {Retraction Note: Room-Temperature Superconductivity in a Carbonaceous Sulfur Hydride},
+  journal    = {Nature},
+  volume     = {610},
+  pages      = {804},
+  year       = {2022},
+  doi        = {10.1038/s41586-022-05294-9},
+  asl_record = {retraction-notice}
+}
+
+@article{durkee2021,
+  author             = {Durkee, Dylan and others},
+  title              = {Colossal Density-Driven Resistance Response in the Negative Charge Transfer Insulator {MnS2}},
+  journal            = {Physical Review Letters},
+  volume             = {127},
+  number             = {1},
+  pages              = {016401},
+  year               = {2021},
+  doi                = {10.1103/PhysRevLett.127.016401},
+  asl_record         = {retracted},
+  asl_retraction_doi = {10.1103/PhysRevLett.131.079902},
+  note               = {Registry record also lists an expression of concern (PRL 130, 129901).}
+}
+
+@article{dasenbrock-gammon2023,
+  author             = {Dasenbrock-Gammon, Nathan and others},
+  title              = {Evidence of Near-Ambient Superconductivity in a {N}-Doped Lutetium Hydride},
+  journal            = {Nature},
+  volume             = {615},
+  pages              = {244--250},
+  year               = {2023},
+  doi                = {10.1038/s41586-023-05742-0},
+  asl_record         = {retracted},
+  asl_retraction_doi = {10.1038/s41586-023-06774-2}
+}
+
+@article{dasenbrock-gammon2023a,
+  author     = {Dasenbrock-Gammon, Nathan and others},
+  title      = {Retraction Note: Evidence of Near-Ambient Superconductivity in a {N}-Doped Lutetium Hydride},
+  journal    = {Nature},
+  volume     = {624},
+  pages      = {460},
+  year       = {2023},
+  doi        = {10.1038/s41586-023-06774-2},
+  asl_record = {retraction-notice}
+}
+
+@misc{lee2023,
+  author        = {Lee, Sukbae and Kim, Ji-Hoon and Kwon, Young-Wan},
+  title         = {The First Room-Temperature Ambient-Pressure Superconductor},
+  year          = {2023},
+  eprint        = {2307.12008},
+  archiveprefix = {arXiv},
+  doi           = {10.48550/arXiv.2307.12008},
+  asl_record    = {preprint},
+  note          = {LK-99 claim preprint; not peer reviewed. Cited as a claim, not as evidence.}
+}
+
+@misc{lee2023a,
+  author        = {Lee, Sukbae and others},
+  title         = {Superconductor {Pb10-xCux(PO4)6O} Showing Levitation at Room Temperature and Atmospheric Pressure and Mechanism},
+  year          = {2023},
+  eprint        = {2307.12037},
+  archiveprefix = {arXiv},
+  doi           = {10.48550/arXiv.2307.12037},
+  asl_record    = {preprint},
+  note          = {LK-99 claim preprint; not peer reviewed. Cited as a claim, not as evidence.}
+}
+
+@misc{zhu2023,
+  author        = {Zhu, Shilin and Wu, Wei and Li, Zheng and Luo, Jianlin},
+  title         = {First order transition in {Pb$_{10-x}$Cu$_x$(PO$_4$)$_6$O} ($0.9<x<1.1$) containing {Cu$_2$S}},
+  year          = {2023},
+  eprint        = {2308.04353},
+  archiveprefix = {arXiv},
+  doi           = {10.48550/arXiv.2308.04353},
+  asl_record    = {preprint},
+  note          = {Journal version listed on arXiv as doi 10.1016/j.matt.2023.11.001 (Matter); TODO: verify volume and pages before citing that version.}
+}
+
+@misc{puphal2023,
+  author        = {Puphal, Pascal and others},
+  title         = {Single Crystal Synthesis, Structure, and Magnetism of {Pb10-xCux(PO4)6O}},
+  year          = {2023},
+  eprint        = {2308.06256},
+  archiveprefix = {arXiv},
+  doi           = {10.48550/arXiv.2308.06256},
+  asl_record    = {preprint},
+  note          = {Journal version listed on arXiv as doi 10.1063/5.0172755; TODO: verify journal details before citing that version.}
+}
+
+@article{garisto2023,
+  author     = {Garisto, Dan},
+  title      = {{LK-99} Isn't a Superconductor: How Science Sleuths Solved the Mystery},
+  journal    = {Nature},
+  volume     = {620},
+  pages      = {705--706},
+  year       = {2023},
+  doi        = {10.1038/d41586-023-02585-7},
+  asl_record = {news}
+}
+
+% ---------------------------------------------------------------------------
+% 5. Data and machine learning for superconductors
+% ---------------------------------------------------------------------------
+
+@article{stanev2018,
+  author  = {Stanev, Valentin and Oses, Corey and Kusne, A. Gilad and Rodriguez, Efrain and Paglione, Johnpierre and Curtarolo, Stefano and Takeuchi, Ichiro},
+  title   = {Machine Learning Modeling of Superconducting Critical Temperature},
+  journal = {npj Computational Materials},
+  volume  = {4},
+  pages   = {29},
+  year    = {2018},
+  doi     = {10.1038/s41524-018-0085-8}
+}
+
+@article{hamidieh2018,
+  author  = {Hamidieh, Kam},
+  title   = {A Data-Driven Statistical Model for Predicting the Critical Temperature of a Superconductor},
+  journal = {Computational Materials Science},
+  volume  = {154},
+  pages   = {346--354},
+  year    = {2018},
+  doi     = {10.1016/j.commatsci.2018.07.052}
+}
+
+@article{konno2021,
+  author  = {Konno, Tomohiko and others},
+  title   = {Deep Learning Model for Finding New Superconductors},
+  journal = {Physical Review B},
+  volume  = {103},
+  number  = {1},
+  pages   = {014509},
+  year    = {2021},
+  doi     = {10.1103/PhysRevB.103.014509}
+}
+
+@article{choudhary2022,
+  author  = {Choudhary, Kamal and Garrity, Kevin},
+  title   = {Designing High-{TC} Superconductors with {BCS}-Inspired Screening, Density Functional Theory, and Deep-Learning},
+  journal = {npj Computational Materials},
+  volume  = {8},
+  pages   = {244},
+  year    = {2022},
+  doi     = {10.1038/s41524-022-00933-1}
+}
+
+@article{ward2016,
+  author  = {Ward, Logan and Agrawal, Ankit and Choudhary, Alok and Wolverton, Christopher},
+  title   = {A General-Purpose Machine Learning Framework for Predicting Properties of Inorganic Materials},
+  journal = {npj Computational Materials},
+  volume  = {2},
+  pages   = {16028},
+  year    = {2016},
+  doi     = {10.1038/npjcompumats.2016.28}
+}
+
+@article{ward2018,
+  author  = {Ward, Logan and others},
+  title   = {Matminer: {An} Open Source Toolkit for Materials Data Mining},
+  journal = {Computational Materials Science},
+  volume  = {152},
+  pages   = {60--69},
+  year    = {2018},
+  doi     = {10.1016/j.commatsci.2018.05.018}
+}
+
+@article{jain2013,
+  author  = {Jain, Anubhav and others},
+  title   = {Commentary: {The} {Materials} {Project}: {A} Materials Genome Approach to Accelerating Materials Innovation},
+  journal = {APL Materials},
+  volume  = {1},
+  number  = {1},
+  pages   = {011002},
+  year    = {2013},
+  doi     = {10.1063/1.4812323}
+}
+
+@article{ong2013,
+  author  = {Ong, Shyue Ping and others},
+  title   = {Python Materials Genomics (pymatgen): {A} Robust, Open-Source Python Library for Materials Analysis},
+  journal = {Computational Materials Science},
+  volume  = {68},
+  pages   = {314--319},
+  year    = {2013},
+  doi     = {10.1016/j.commatsci.2012.10.028}
+}
+
+@article{larsen2017,
+  author  = {Larsen, Ask Hjorth and others},
+  title   = {The Atomic Simulation Environment---a {Python} Library for Working with Atoms},
+  journal = {Journal of Physics: Condensed Matter},
+  volume  = {29},
+  number  = {27},
+  pages   = {273002},
+  year    = {2017},
+  doi     = {10.1088/1361-648X/aa680e}
+}
+
+% ---------------------------------------------------------------------------
+% 6. First-principles tools (Stage 6)
+% ---------------------------------------------------------------------------
+
+@article{giannozzi2009,
+  author  = {Giannozzi, Paolo and others},
+  title   = {{QUANTUM ESPRESSO}: {A} Modular and Open-Source Software Project for Quantum Simulations of Materials},
+  journal = {Journal of Physics: Condensed Matter},
+  volume  = {21},
+  number  = {39},
+  pages   = {395502},
+  year    = {2009},
+  doi     = {10.1088/0953-8984/21/39/395502}
+}
+
+@article{giannozzi2017,
+  author  = {Giannozzi, Paolo and others},
+  title   = {Advanced Capabilities for Materials Modelling with {Quantum ESPRESSO}},
+  journal = {Journal of Physics: Condensed Matter},
+  volume  = {29},
+  number  = {46},
+  pages   = {465901},
+  year    = {2017},
+  doi     = {10.1088/1361-648X/aa8f79}
+}
+
+@article{ponce2016,
+  author  = {Ponc{\'e}, Samuel and Margine, Elena R. and Verdi, Carla and Giustino, Feliciano},
+  title   = {{EPW}: {Electron}-Phonon Coupling, Transport and Superconducting Properties Using Maximally Localized {Wannier} Functions},
+  journal = {Computer Physics Communications},
+  volume  = {209},
+  pages   = {116--133},
+  year    = {2016},
+  doi     = {10.1016/j.cpc.2016.07.028}
+}
+
+@article{lee2023b,
+  author  = {Lee, Hyungjun and others},
+  title   = {Electron-Phonon Physics from First Principles Using the {EPW} Code},
+  journal = {npj Computational Materials},
+  volume  = {9},
+  pages   = {156},
+  year    = {2023},
+  doi     = {10.1038/s41524-023-01107-3}
+}
+
+% ---------------------------------------------------------------------------
+% 7. Scientific software and data practice
+% ---------------------------------------------------------------------------
+
+@article{wilkinson2016,
+  author  = {Wilkinson, Mark D. and others},
+  title   = {The {FAIR} Guiding Principles for Scientific Data Management and Stewardship},
+  journal = {Scientific Data},
+  volume  = {3},
+  pages   = {160018},
+  year    = {2016},
+  doi     = {10.1038/sdata.2016.18}
+}
+
+@article{harris2020,
+  author     = {Harris, Charles R. and others},
+  title      = {Array Programming with {NumPy}},
+  journal    = {Nature},
+  volume     = {585},
+  pages      = {357--362},
+  year       = {2020},
+  doi        = {10.1038/s41586-020-2649-2},
+  asl_record = {software}
+}
+
+@article{virtanen2020,
+  author     = {Virtanen, Pauli and others},
+  title      = {{SciPy} 1.0: {Fundamental} Algorithms for Scientific Computing in {Python}},
+  journal    = {Nature Methods},
+  volume     = {17},
+  pages      = {261--272},
+  year       = {2020},
+  doi        = {10.1038/s41592-019-0686-2},
+  asl_record = {software}
+}
+
+@article{hunter2007,
+  author     = {Hunter, John D.},
+  title      = {Matplotlib: {A} {2D} Graphics Environment},
+  journal    = {Computing in Science \& Engineering},
+  volume     = {9},
+  number     = {3},
+  pages      = {90--95},
+  year       = {2007},
+  doi        = {10.1109/MCSE.2007.55},
+  asl_record = {software}
+}
+
+@article{pedregosa2011,
+  author     = {Pedregosa, Fabian and others},
+  title      = {Scikit-learn: {Machine} Learning in {Python}},
+  journal    = {Journal of Machine Learning Research},
+  volume     = {12},
+  pages      = {2825--2830},
+  year       = {2011},
+  url        = {https://jmlr.org/papers/v12/pedregosa11a.html},
+  asl_status = {todo-verify},
+  asl_record = {software},
+  note       = {TODO: verify URL and pages; JMLR articles have no DOI.}
+}

@@ -1,0 +1,3 @@
+# Minimal dependencies for Stage 0 CI. Later stages extend CI with what they need.
+pyyaml>=6
+pytest>=8
