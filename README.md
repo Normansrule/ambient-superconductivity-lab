@@ -22,7 +22,7 @@ The table is generated from [`proofs/registry.yaml`](proofs/registry.yaml) by `m
 <!-- STATUS:START -->
 | Stage | Goal | Time | Cost | State | Proof (live from CI) |
 |---|---|---|---|---|---|
-| S0 | [Foundation](proofs/stage0/PROOF.md) | 1 week | $0 | in progress | ![S0](https://img.shields.io/endpoint?url=https://normansrule.github.io/ambient-superconductivity-lab/status/stage0.json) |
+| S0 | [Foundation](proofs/stage0/PROOF.md) | 1 week | $0 | done (proved and approved) | ![S0](https://img.shields.io/endpoint?url=https://normansrule.github.io/ambient-superconductivity-lab/status/stage0.json) |
 | S1 | [Theory engine](ROADMAP.md#stages) | 3 weeks | $0 | planned | ![S1](https://img.shields.io/endpoint?url=https://normansrule.github.io/ambient-superconductivity-lab/status/stage1.json) |
 | S2 | [Curated data and landscape](ROADMAP.md#stages) | 2–3 weeks | $0 | planned | ![S2](https://img.shields.io/endpoint?url=https://normansrule.github.io/ambient-superconductivity-lab/status/stage2.json) |
 | S3 | [Machine learning screening baseline](ROADMAP.md#stages) | 3–4 weeks | $0 | planned | ![S3](https://img.shields.io/endpoint?url=https://normansrule.github.io/ambient-superconductivity-lab/status/stage3.json) |

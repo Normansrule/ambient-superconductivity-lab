@@ -7,10 +7,10 @@ stages:
     name: Foundation
     weeks: "1 week"
     cost: "$0"
-    state: in-progress
+    state: done
     ci: true
-    approved_by: null
-    approved_on: null
+    approved_by: Aleksander Norman
+    approved_on: 2026-11-18
   - id: 1
     name: Theory engine
     weeks: "3 weeks"
